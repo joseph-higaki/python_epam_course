@@ -1,0 +1,5 @@
+name: scrapper-student-template-env
+dependencies:
+  - python=3.10
+  - requests
+  - pycodestyle

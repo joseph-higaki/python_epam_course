@@ -1,0 +1,3 @@
+name: demo-task-student-template-env
+dependencies:
+  - python=3.12.3
