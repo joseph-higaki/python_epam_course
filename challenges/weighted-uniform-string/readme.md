@@ -21,7 +21,7 @@ Example
 .
 
 Working from left to right, weights that exist are:
-
+```
 string  weight
 a       1
 b       2
@@ -33,7 +33,10 @@ d       4
 dd      8
 ddd     12
 dddd    16
-Now for each value in , see if it exists in the possible string weights. The return array is ['Yes', 'No', 'No', 'Yes', 'No'].
+```
+
+Now for each value in , see if it exists in the possible string weights. The return array is
+`['Yes', 'No', 'No', 'Yes', 'No'].`
 
 Function Description
 
@@ -56,7 +59,7 @@ Constraints
 
  will only contain lowercase English letters, ascii[a-z].
 Sample Input 0
-
+```
 abccddde
 6
 1
@@ -65,14 +68,17 @@ abccddde
 5
 9
 10
-Sample Output 0
+```
 
+Sample Output 0
+```
 Yes
 Yes
 Yes
 Yes
 No
 No
+```
 Explanation 0
 
 The weights of every possible uniform substring in the string abccddde are shown below:
@@ -87,7 +93,7 @@ Note that while de is a substring of  that would have a weight of , it is not a 
 Note that we are only dealing with contiguous substrings. So ccc is not a substring of the string ccxxc.
 
 Sample Input 1
-
+```
 aaabbbbcccddd
 5
 9
@@ -95,10 +101,13 @@ aaabbbbcccddd
 8
 12
 5
-Sample Output 1
+```
 
+Sample Output 1
+```
 Yes
 No
 Yes
 Yes
 No
+```
